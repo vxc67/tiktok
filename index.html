@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>公式プレゼント</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
+    <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+    <link href="[https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Playfair+Display:wght@700;900&display=swap](https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Playfair+Display:wght@700;900&display=swap)" rel="stylesheet">
     <style>
         :root {
             --primary: #2563eb;
@@ -21,176 +20,174 @@
             --shadow: rgba(0, 0, 0, 0.1);
         }
 
-```
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+        /* 修正点：ここにあった ``` を削除しました */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    body {
-        font-family: 'Noto Sans JP', sans-serif;
-        background: var(--bg-main);
-        color: var(--text-primary);
-        line-height: 1.8;
-        overflow-x: hidden;
-    }
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
 
-    .container {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 0 24px;
-        position: relative;
-        z-index: 1;
-    }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
 
-    .hero {
-        text-align: center;
-        padding: 100px 0 80px;
-        background: linear-gradient(180deg, #f5e6d3 0%, var(--bg-main) 100%);
-        position: relative;
-    }
+        .hero {
+            text-align: center;
+            padding: 100px 0 80px;
+            background: linear-gradient(180deg, #f5e6d3 0%, var(--bg-main) 100%);
+            position: relative;
+        }
 
-    .hero::before {
-        content: '';
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        width: 300px;
-        height: 300px;
-        background: radial-gradient(circle, rgba(255, 192, 203, 0.3) 0%, transparent 70%);
-        border-radius: 50%;
-        filter: blur(60px);
-    }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(255, 192, 203, 0.3) 0%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(60px);
+        }
 
-    .hero::after {
-        content: '';
-        position: absolute;
-        top: 30%;
-        right: 10%;
-        width: 350px;
-        height: 350px;
-        background: radial-gradient(circle, rgba(255, 192, 203, 0.25) 0%, transparent 70%);
-        border-radius: 50%;
-        filter: blur(80px);
-    }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 30%;
+            right: 10%;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(255, 192, 203, 0.25) 0%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(80px);
+        }
 
-    .gift-icon {
-        width: 280px;
-        height: 280px;
-        margin: 0 auto 40px;
-        position: relative;
-        z-index: 1;
-        filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.15));
-    }
+        .gift-icon {
+            width: 280px;
+            height: 280px;
+            margin: 0 auto 40px;
+            position: relative;
+            z-index: 1;
+            filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.15));
+        }
 
-    .gift-box-body {
-        width: 220px;
-        height: 220px;
-        background: #ffd700;
-        border: 8px solid #3d4852;
-        border-radius: 50%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        overflow: hidden;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-    }
+        .gift-box-body {
+            width: 220px;
+            height: 220px;
+            background: #ffd700;
+            border: 8px solid #3d4852;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
 
-    .gift-box-present {
-        width: 160px;
-        height: 160px;
-        background: repeating-linear-gradient(45deg, #ffd700, #ffd700 10px, #ffffff 10px, #ffffff 20px);
-        border: 6px solid #3d4852;
-        border-radius: 12px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+        .gift-box-present {
+            width: 160px;
+            height: 160px;
+            background: repeating-linear-gradient(45deg, #ffd700, #ffd700 10px, #ffffff 10px, #ffffff 20px);
+            border: 6px solid #3d4852;
+            border-radius: 12px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
-    .gift-ribbon-h { width: 100%; height: 40px; background: #ffd700; position: absolute; top: 50%; left: 0; transform: translateY(-50%); border-top: 4px solid #3d4852; border-bottom: 4px solid #3d4852; }
-    .gift-ribbon-v { width: 40px; height: 100%; background: #ffd700; position: absolute; top: 0; left: 50%; transform: translateX(-50%); border-left: 4px solid #3d4852; border-right: 4px solid #3d4852; }
-    
-    .gift-bow {
-        position: absolute;
-        top: -25px;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        gap: 6px;
-        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-    }
-    .bow-left, .bow-right { width: 38px; height: 38px; background: #ffd700; border: 5px solid #3d4852; border-radius: 50%; }
-    .bow-center { width: 22px; height: 22px; background: #ffd700; border: 4px solid #3d4852; }
+        .gift-ribbon-h { width: 100%; height: 40px; background: #ffd700; position: absolute; top: 50%; left: 0; transform: translateY(-50%); border-top: 4px solid #3d4852; border-bottom: 4px solid #3d4852; }
+        .gift-ribbon-v { width: 40px; height: 100%; background: #ffd700; position: absolute; top: 0; left: 50%; transform: translateX(-50%); border-left: 4px solid #3d4852; border-right: 4px solid #3d4852; }
+        
+        .gift-bow {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 6px;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+        }
+        .bow-left, .bow-right { width: 38px; height: 38px; background: #ffd700; border: 5px solid #3d4852; border-radius: 50%; }
+        .bow-center { width: 22px; height: 22px; background: #ffd700; border: 4px solid #3d4852; }
 
-    .hero h1 {
-        font-size: clamp(2.2rem, 6vw, 3.5rem);
-        font-weight: 900;
-        margin-bottom: 30px;
-        color: #2d3748;
-        letter-spacing: 0.1em;
-        position: relative;
-        z-index: 1;
-    }
+        .hero h1 {
+            font-size: clamp(2.2rem, 6vw, 3.5rem);
+            font-weight: 900;
+            margin-bottom: 30px;
+            color: #2d3748;
+            letter-spacing: 0.1em;
+            position: relative;
+            z-index: 1;
+        }
 
-    .hero-subtitle {
-        font-size: clamp(0.9rem, 2vw, 1.2rem);
-        color: #4a5568;
-        margin-bottom: 40px;
-        font-weight: 500;
-    }
+        .hero-subtitle {
+            font-size: clamp(0.9rem, 2vw, 1.2rem);
+            color: #4a5568;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
 
-    .cta-button {
-        display: inline-block;
-        padding: 22px 60px;
-        background: linear-gradient(180deg, #ff6b35 0%, #ff4500 100%);
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 1.4rem;
-        font-weight: 900;
-        border-radius: 16px;
-        border: 4px solid #3d4852;
-        box-shadow: 0 8px 0 #3d4852, 0 12px 24px rgba(255, 69, 0, 0.4);
-        transition: all 0.2s ease;
-        position: relative;
-        z-index: 1;
-    }
+        .cta-button {
+            display: inline-block;
+            padding: 22px 60px;
+            background: linear-gradient(180deg, #ff6b35 0%, #ff4500 100%);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 900;
+            border-radius: 16px;
+            border: 4px solid #3d4852;
+            box-shadow: 0 8px 0 #3d4852, 0 12px 24px rgba(255, 69, 0, 0.4);
+            transition: all 0.2s ease;
+            position: relative;
+            z-index: 1;
+        }
 
-    .cta-button:hover {
-        transform: translateY(3px);
-        box-shadow: 0 5px 0 #3d4852, 0 9px 20px rgba(255, 69, 0, 0.4);
-    }
+        .cta-button:hover {
+            transform: translateY(3px);
+            box-shadow: 0 5px 0 #3d4852, 0 9px 20px rgba(255, 69, 0, 0.4);
+        }
 
-    .section { padding: 60px 0; }
-    .section-title {
-        font-size: clamp(1.6rem, 3.5vw, 2.3rem);
-        text-align: center;
-        margin-bottom: 48px;
-        background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+        .section { padding: 60px 0; }
+        .section-title {
+            font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+            text-align: center;
+            margin-bottom: 48px;
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
 
-    .card-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 24px;
-    }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
 
-    .card { background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 16px; padding: 32px 28px; }
-    .legal-section { background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; margin-bottom: 32px; }
+        .card { background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 16px; padding: 32px 28px; }
+        .legal-section { background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px; margin-bottom: 32px; }
 
-    .scroll-animate { opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s; }
+        .scroll-animate { opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s; }
 
-    @media (max-width: 768px) {
-        .hero h1 { font-size: 2rem; }
-        .cta-button { padding: 18px 40px; font-size: 1.2rem; }
-    }
-</style>
-```
-
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .cta-button { padding: 18px 40px; font-size: 1.2rem; }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -213,47 +210,44 @@
             <a href="https://lin.ee/EJytMxi" class="cta-button" onclick="ttq.track('ClickButton')">今すぐ受け取る</a>
         </section>
 
-```
-    <section class="section">
-        <h2 class="section-title">キャンペーンの仕組み</h2>
-        <div class="card-grid">
-            <div class="card scroll-animate">
-                <h3>💰 広告収入の還元</h3>
-                <p>広告収入の一部を、賞品購入の資金として活用しています。</p>
+        <section class="section">
+            <h2 class="section-title">キャンペーンの仕組み</h2>
+            <div class="card-grid">
+                <div class="card scroll-animate">
+                    <h3>💰 広告収入の還元</h3>
+                    <p>広告収入の一部を、賞品購入の資金として活用しています。</p>
+                </div>
+                <div class="card scroll-animate">
+                    <h3>🤝 協賛企業からの支援</h3>
+                    <p>製品を特別価格で提供してくださっています。</p>
+                </div>
+                <div class="card scroll-animate">
+                    <h3>❤️ 社会貢献の一環</h3>
+                    <p>利益の一部を還元することで、皆さまに幸せをお届けしたいと考えています。</p>
+                </div>
             </div>
-            <div class="card scroll-animate">
-                <h3>🤝 協賛企業からの支援</h3>
-                <p>製品を特別価格で提供してくださっています。</p>
+        </section>
+
+        <section class="section">
+            <div class="legal-section">
+                <h2>【特定商取引法に基づく表記】</h2>
+                <p>・事業者名: 株式会社GIFT</p>
+                <p>・所在地: 〒141-0022 東京都品川区東五反田2-5-2</p>
             </div>
-            <div class="card scroll-animate">
-                <h3>❤️ 社会貢献の一環</h3>
-                <p>利益の一部を還元することで、皆さまに幸せをお届けしたいと考えています。</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
-    <section class="section">
-        <div class="legal-section">
-            <h2>【特定商取引法に基づく表記】</h2>
-            <p>・事業者名: 株式会社GIFT</p>
-            <p>・所在地: 〒141-0022 東京都品川区東五反田2-5-2</p>
-        </div>
-    </section>
-</div>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
 
-<script>
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }
-        });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
-</script>
-```
-
+        document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
